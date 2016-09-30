@@ -1,0 +1,229 @@
+div.container {
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1240px;
+    width: 100%;
+}
+.clearfix {
+    overflow: auto;
+}
+.aloha-logo{
+  height: 100px;
+  width: 15%;
+  max-width: 100%;
+}
+.cart-logo{
+  height:65px;
+  width: 7%;
+  padding: 1% 1%;
+}
+
+.white{
+  color: #FFFFFF;
+
+}
+
+
+.grey-color{
+  color: #969696
+}
+.padding{
+  padding-right: 60px;
+}
+.orange{
+  color: #e2574c;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+.clothes{
+  width=100%
+}
+
+.top{
+   background-image:
+   linear-gradient(
+       rgba(0, 0, 0, 0.247059) 0%,
+       rgba(0, 0, 0, 0.247059) 100%),
+       url(assets/images/banner-girl.png),
+       url(assets/images/flower-bkgd.jpg);
+   background-repeat: repeat-x, no-repeat;
+   background-size: contain, auto;
+   background-position: center top, 50% 100px;
+   top: 65px;
+   height: 975px;
+   width: 100%;
+   max-height: 975px;
+     overflow: hidden;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/fonts/PlayfairDisplay-Regular.otf);
+}
+.center {
+  text-align: center;
+ }
+ hr{
+     display: block;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #d7d7d7;
+     margin: 1em 0;
+     padding:0;
+ }
+body{
+  font-size:16px;
+  color:#2d2d2d
+  @font-face {
+  font-family: ‘mySecondFont’;
+  src: url(assets/fonts/Raleway-Light.ttf);
+  }
+}
+
+.floatleft{
+  float:left;
+  overflow: hidden;
+}
+.logo{
+  display:inline-block;
+}
+.floatright{
+  float:right;
+  overflow: hidden;
+}
+
+.h1{
+  color:white;
+   padding-top: 0px
+   font-family: myFirstFont;
+   font-size: 60px;
+}
+.font-size{
+  font-size: 20px;
+  text-align:center;
+  color: #2d2d2d
+}
+.h2{
+    color:white;
+    padding-top: 310px;
+    font-family: myFirstFont;
+    font-size: 30px;
+  }
+h3{
+  font-family: mySecondFont;
+  text-align: center;
+  font-size: 40px;
+}
+div {
+    font-family: myFirstFont;
+}
+.container {
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1240px;
+    width: 100%;
+}
+.container2 {
+    width: 25%;
+}
+.section{
+  background-image:url("assets/images/wave-bkgd.jpg");
+  background-repeat: no-repeat;
+  height:400px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#image.container{
+  float:left
+}
+.input{
+  border-radius: 31px;
+-moz-border-radius: 31px;
+-webkit-border-radius: 31px;
+border: 0px solid #FFFFFF;
+}
+.input2{
+  border-radius: 31px;
+-moz-border-radius: 31px;
+-webkit-border-radius: 31px;
+border: 0px solid #FFFFFF;
+background-color: salmon;
+}
+
+}
+ .Category{
+   text-align:center;
+}
+.clothes{
+  text-align:center;
+}
+.Product{
+  text-align:center;
+}
+.Price{
+  text-align:center;
+}
+footer{
+  overflow: hidden;
+  background-color: black;
+color: white;
+margin: 20px 0 20px 0;
+padding: 20px;
+
+.girl{
+  position:fixed;
+  text-align: center;
+}
+form{
+  float:left
+}
+div.clothes{
+     display:inline-block;
+     width: 23%
+   }
+
+.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media only screen and (max-width: 599px) {
+  .visibledevice {display:inline-block;}
+  .visibledesktop {display:none;}
+  full-for-mobile{
+    width:auto}
+    div.clothes{
+         display:inline;
+         width: 23%
+       }
+       body{
+         font-size:14px;}
+       img {
+       max-width: 100%
+  @media (max-width : 320px) {
+    .visibledevice {display:inline;}
+  .visibledesktop {display:none;}
+  div.clothes{
+       display:inline;
+       width: 23%
+     }
+  body{
+    font-size:14px;}
+  img {
+  max-width: 100%
+}
+tablet
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  body{
+    font-size:14px;}
+  img {
+  max-width: 100%
+   }
+   input, textarea {
+  max-width:100%
+}
