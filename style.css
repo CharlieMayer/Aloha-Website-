@@ -1,192 +1,154 @@
 div.container {
-    margin-right: auto;
     margin: 0 auto;
-    padding: 0 2%;
     max-width: 1240px;
+    padding: 0 2%;
     width: 100%;
 }
 .clearfix {
     overflow: auto;
 }
-.aloha-logo{
-  height: 100px;
-  width: 15%;
-  max-width: 100%;
+.aloha-logo {
+    height: 100px;
+    max-width: 100%;
+    width: 15%;
 }
-.cart-logo{
-  height:65px;
-  width: 7%;
-  padding: 1% 1%;
+.cart-logo {
+    height: 65px;
+    padding: 1%;
+    width: 7%;
 }
-
-.white{
-  color: #FFFFFF;
-
+.white {
+    color: #ffffff;
 }
-
-
-.grey-color{
-  color: #969696
+.grey-color {
+    color: #969696;
 }
-.padding{
-  padding-right: 60px;
+.padding {
+    padding-right: 60px;
 }
-.orange{
-  color: #e2574c;
-  font-size: 25px;
+.orange {
+    color: #e2574c;
+    font-size: 25px;
 }
-
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
-.clothes{
-  width=100%
+.clothes {
 }
-
-.top{
-   background-image:
-   linear-gradient(
-       rgba(0, 0, 0, 0.247059) 0%,
-       rgba(0, 0, 0, 0.247059) 100%),
-       url(assets/images/banner-girl.png),
-       url(assets/images/flower-bkgd.jpg);
-   background-repeat: repeat-x, no-repeat;
-   background-size: contain, auto;
-   background-position: center top, 50% 100px;
-   top: 65px;
-   height: 975px;
-   width: 100%;
-   max-height: 975px;
-     overflow: hidden;
-
+.top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("assets/images/banner-girl.png"), url("assets/images/flower-bkgd.jpg");
+    background-position: center top, 50% 100px;
+    background-repeat: repeat-x, no-repeat;
+    background-size: contain, auto auto;
+    height: 975px;
+    max-height: 975px;
+    overflow: hidden;
+    top: 65px;
+    width: 100%;
 }
 @font-face {
-    font-family: myFirstFont;
-    src: url(assets/fonts/PlayfairDisplay-Regular.otf);
+    font-family: "myFirstFont";
+    src: url("assets/fonts/PlayfairDisplay-Regular.otf");
 }
 .center {
-  text-align: center;
- }
- hr{
-     display: block;
-     height: 1px;
-     border: 0;
-     border-top: 1px solid #d7d7d7;
-     margin: 1em 0;
-     padding:0;
- }
-body{
-  font-size:16px;
-  color:#2d2d2d
-  @font-face {
-  font-family: ‘mySecondFont’;
-  src: url(assets/fonts/Raleway-Light.ttf);
-  }
+    text-align: center;
 }
-
-.floatleft{
-  float:left;
-  overflow: hidden;
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #d7d7d7 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
 }
-.logo{
-  display:inline-block;
+body {
+    font-size: 16px;
 }
-.floatright{
-  float:right;
-  overflow: hidden;
+.floatleft {
+    float: left;
+    overflow: hidden;
 }
-
-.h1{
-  color:white;
-   padding-top: 0px
-   font-family: myFirstFont;
-   font-size: 60px;
+.logo {
+    display: inline-block;
 }
-.font-size{
-  font-size: 20px;
-  text-align:center;
-  color: #2d2d2d
+.floatright {
+    float: right;
+    overflow: hidden;
 }
-.h2{
-    color:white;
-    padding-top: 310px;
+.h1 {
+    color: white;
+    font-size: 60px;
+}
+.font-size {
+    color: #2d2d2d;
+    font-size: 20px;
+    text-align: center;
+}
+.h2 {
+    color: white;
     font-family: myFirstFont;
     font-size: 30px;
-  }
-h3{
-  font-family: mySecondFont;
-  text-align: center;
-  font-size: 40px;
+    padding-top: 310px;
+}
+h3 {
+    font-family: mySecondFont;
+    font-size: 40px;
+    text-align: center;
 }
 div {
     font-family: myFirstFont;
 }
 .container {
-    margin-right: auto;
     margin: 0 auto;
-    padding: 0 2%;
     max-width: 1240px;
+    padding: 0 2%;
     width: 100%;
 }
 .container2 {
     width: 25%;
 }
-.section{
-  background-image:url("assets/images/wave-bkgd.jpg");
-  background-repeat: no-repeat;
-  height:400px;
-  background-size: cover;
-  background-position: bottom;
+.section {
+    background-image: url("assets/images/wave-bkgd.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
 }
-
-#image.container{
-  float:left
+#image.container {
+    float: left;
 }
-.input{
-  border-radius: 31px;
+.input {
+border-radius: 31px;
 -moz-border-radius: 31px;
 -webkit-border-radius: 31px;
 border: 0px solid #FFFFFF;
 }
-.input2{
-  border-radius: 31px;
--moz-border-radius: 31px;
--webkit-border-radius: 31px;
-border: 0px solid #FFFFFF;
-background-color: salmon;
+.clothes {
+    text-align: center;
 }
-
+.Product {
+    text-align: center;
 }
- .Category{
-   text-align:center;
+.Price {
+    text-align: center;
 }
-.clothes{
-  text-align:center;
+footer {
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 20px;
 }
-.Product{
-  text-align:center;
+div.clothes {
+    display: inline-block;
+    width: 23%;
 }
-.Price{
-  text-align:center;
-}
-footer{
-  overflow: hidden;
-  background-color: black;
-color: white;
-margin: 20px 0 20px 0;
-padding: 20px;
-
-.girl{
-  position:fixed;
-  text-align: center;
-}
-form{
-  float:left
-}
-div.clothes{
-     display:inline-block;
-     width: 23%
-   }
 
 .visibledevice {display:none;}
 .visibledesktop {display:display;}
@@ -219,11 +181,26 @@ div.clothes{
 tablet
 
 @media only screen and (min-width: 600px) and (max-width: 999px) {
+  .visibledevice {display:inline-block;}
+  .visibledesktop {display:none;}
+  full-for-mobile{
+    width:auto}
+    div.clothes{
+         display:inline;
+         width: 23%
+       }
+       body{
+         font-size:14px;}
+       img {
+       max-width: 100%
+  @media (max-width : 320px) {
+    .visibledevice {display:inline;}
+  .visibledesktop {display:none;}
+  div.clothes{
+       display:inline;
+       width: 44%
+     }
   body{
     font-size:14px;}
   img {
   max-width: 100%
-   }
-   input, textarea {
-  max-width:100%
-}
