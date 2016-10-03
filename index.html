@@ -2,30 +2,40 @@
 <html lang="en">
    <head>
       <title>Aloha Shop</title>
+        <!-- Link to Stylesheet-->
       <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- CSS Reset -->
+<link rel="stylesheet" type="text/css" href="cssreset.css">
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
+   <!-- Here starts the Body Content -->
    <body>
+     <!-- Here starts the Header With Aloha Logo and Cart Icon-->
       <header>
-         <div>
+         <nav>
+           <div>
             <img src="assets/images/aloha-logo.svg" class="aloha-logo floatleft" alt="Aloha">
          </div>
          <div>
             <img src="assets/images/cart-icon.svg" class="cart-logo floatright" alt="Cart Icon">
          </div>
+       </nav>
       </header>
-      <nav>
+      <!-- Here starts the Section With Girl background-image  -->
+      <div>
          <section class="top">
-            <p class="h2 center">New Collection</p>
-            <p class ="h1 center" >Spring/ Summer 2016</p>
+            <p class="h2 center">New Collection<br>
+               <span class ="h1 center" >Spring/ Summer 2016</span>
+            </p>
          </section>
-      </nav>
+      </div>
       <div class="container">
          <br>
          <br>
-         <h3>
-            <i>Hand Crafted</i> <b>Styles</b>
+            <!-- Here starts the Hand Crafted Styles Section -->
+         <h3 style="font-family:myThirdFont; color:#2d2d2d">
+            Hand Crafted <span style="font-family:myFourthFont; color:#2d2d2d">Styles</span>
          </h3>
          <p class="font-size">Aloha Apparel Co. sells only the finest ready-to-travel clothing.  Browse our </p>
          <p class="font-size"> current selection of products or sign up for updates below.</p>
@@ -36,59 +46,76 @@
       <hr/>
       <br>
       <br>
+         <!-- Here starts the  Products Section -->
       <div class="products">
-         <h3>
-            <i>Most-Loved</i> <b>Products</b>
+         <h3 style="font-family:myThirdFont; color:#2d2d2d">
+            Most-Loved <span style="font-family:myFourthFont;color:#2d2d2d">Products</span>
          </h3>
-         <div class="clothes visibledevice">
-            <img src="assets/images/stretch-knit-dress.jpg" alt="Stretch Knit Dress" height="250" width="250">
+            <!-- Here starts the Stretch Knit Dress Div-->
+         <div class="clothes visibledevice padding-bottom">
+            <img src="assets/images/stretch-knit-dress.jpg" class="imagepad" alt="Stretch Knit Dress" height="250" width="250">
             <p class="Category grey-color">DRESSES</p>
             <p class="Product orange">Stretch Knit Dress</p>
             <p class="Price grey-color">$169.00</p>
          </div>
+           <!-- Here starts the Cotton Blue Shirt Div-->
          <div class="clothes visibledevice">
-            <img src="assets/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" height="250" width="250">
+            <img src="assets/images/cotton-blue-shirt.jpg"  class="imagepad" alt="Cotton Blue Shirt" height="250" width="250">
             <p class="Category grey-color">SHIRTS</p>
             <p class="Product orange">Cotton Blue Shirt</p>
             <p class="Price grey-color">$89.00</p>
          </div>
+           <!-- Here starts the Checked Stretch Dress Div-->
          <div class="clothes visibledevice">
-            <img src="assets/images/checked-stretch-dress.jpg" alt="Checkered Strech Dress" height="250" width="250">
+            <img src="assets/images/checked-stretch-dress.jpg" class="imagepad" alt="Checkered Strech Dress" height="250" width="250">
             <p class="Category grey-color">DRESSES</p>
             <p class="Product orange">Checked Stretch Dress</p>
             <p class="Price grey-color">$129.00</p>
          </div>
+           <!-- Here starts the Blue Hipster Backpack Div-->
          <div class="clothes visibledevice">
-            <img src="assets/images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" height="250" width="200">
+            <img src="assets/images/blue-hipster-backpack.jpg" class="imagepad" alt="Blue Hipster Backpack" height="250" width="200">
             <p class="Category grey-color">BAGS</p>
             <p class="Product orange">Blue Hipster Backpack</p>
             <p class="Price grey-color">$69.00 </p>
          </div>
       </div>
-      <div class="section">
-         <h3 class="white">
-            <i>Sign-Up for</i> <b>Updates</b>
-         </h3>
-         <p class="center font-size"><span style="color: white;"> Stay updated on our latest product releases, be first to find out about upcoming</span></p>
-         <p class="center font-size"><span style="color: white;"> and get free style tips from our blog.  Unsubscribe at any time.</span></p>
+        <!-- Here starts the Sign-Up Section-->
+      <section class="section vertcenter">
+         <div>
+            <h3 style="font-family:myThirdFont;color:white">
+               Sign-Up for <span style="font-family:myFourthFont;">Updates</span>
+            </h3>
+         </div>
+         <p class="center font-size railwaylight"><span style="color: white;"> Stay updated on our latest product releases, be first to find out about upcoming</span></p>
+         <p class="center font-size railwaylight"><span style="color: white;"> and get free style tips from our blog.  Unsubscribe at any time.</span></p>
          <form class="center">
-            <input class="input" type="email" value="Your Email">
-            <input class="input2" type="submit" value="Subscribe">
+             <!-- Here starts the Email Input Form-->
+            <div class="relative">
+               <input class="input grey-color" type="email" value="Your Email">
+               <button class="floatleft white center">Subscribe</button>
+            </div>
          </form>
-      </div>
+      </section>
+        <!-- Here starts the Footer-->
       <footer>
-         <ul class="floatright padding">
-            <li><img src="assets/images/facebook.png" alt="Facebook" height="20" width="20"> <span class="visibledesktop">Facebook</span></li>
-            <li><img src="assets/images/4twitter.png" alt="Twitter" height="20" width="20"> <span class="visibledesktop">Twitter</span></li>
-            <li><img src="assets/images/instagram.png" alt="Instagram" height="20" width="20"> <span class="visibledesktop">Instagram</span></li>
-            <li><img src="assets/images/pinterest.png" alt="Pinterest" height="20" width="20"> <span class="visibledesktop">Pinterest</span></li>
-            <li><img src="assets/images/googleplus.png" alt="Google" height="20" width="20"> <span class="visibledesktop">Google+</span></li>
-         </ul>
-         <p>&copy; 2016 Aloha Apparel Co.</p>
-         <p>Powered by HTML and CSS.</p>
-         <p>604-604-6040. <a href="info@alohaapparel.com">info@alohaapparel.com</a> </p>
-         <p class="grey-color"> 1490 W Broadway</p>
-         <p class="grey-color">Vancouver, BC, Canada</p>
+         <div class="floatleft">
+            <p>&copy; 2016 Aloha Apparel Co.</p>
+            <p>Powered by HTML and CSS.</p>
+            <p>604-604-6040. <a href="info@alohaapparel.com">info@alohaapparel.com</a> </p>
+            <p class="grey-color"> 1490 W Broadway</p>
+            <p class="grey-color">Vancouver, BC, Canada</p>
+         </div>
+         <div>
+             <!-- Here starts the Social Media Icon List-->
+            <ul>
+               <li><img src="assets/images/facebook.png" alt="Facebook" height="20" width="20"> <span class="visibledesktop mySecondFont">Facebook</span></li>
+               <li><img src="assets/images/twitter.png" alt="Twitter" height="20" width="20"> <span class="visibledesktop mySecondFont">Twitter</span></li>
+               <li><img src="assets/images/instagram.png" alt="Instagram" height="20" width="20"> <span class="visibledesktop mySecondFont">Instagram</span></li>
+               <li><img src="assets/images/pinterest.png" alt="Pinterest" height="20" width="20"> <span class="visibledesktop mySecondFont">Pinterest</span></li>
+               <li><img src="assets/images/googleplus.png" alt="Google" height="20" width="20"> <span class="visibledesktop mySecondFont">Google+</span></li>
+            </ul>
+         </div>
       </footer>
    </body>
 </html>
