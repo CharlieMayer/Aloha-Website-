@@ -392,3 +392,106 @@ ul{
 
 @media only screen and (min-width: 600px) and (max-width: 999px) {
 }
+.visibledevice {
+    display:inline-block;
+}
+.visibledesktop {
+    display: none;
+}
+.top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("assets/images/banner-girl.png"), url("assets/images/flower-bkgd.jpg");
+    background-position: center top, 50% 100px;
+    background-repeat: repeat-x, no-repeat;
+    background-size: contain;
+    height: 300px;
+    max-height: 60.938em;
+    overflow: hidden;
+    top: 4.063em;
+    width: 100%;
+}
+.h2 {
+    color: white;
+    font-family: myFirstFont;
+    font-size: 25px;
+    padding-top: 45%;
+}
+.h1 {
+    color: white;
+    font-size: 40px;
+}
+.font-size {
+    color: #2d2d2d;
+    font-size: 17px;
+    text-align: center;
+}
+
+full-for-mobile {
+    width: auto;
+}
+div.clothes {
+    display: inline;
+    width: 40%;
+}
+div.floatleft{
+  float: none;
+}
+
+body {
+    font-size: 14px;
+}
+p{
+  text-align: center;
+}
+li
+  {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+.input {
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 70%;
+    height: 25px;
+    padding: 0 0 0 15px;
+}
+button {
+  position: absolute;
+    top: 0;
+    right:15%;
+    margin: 3px 0;
+    background-color: #e2574c;
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 20%;
+    height: 20px;
+}
+        body {
+            font-size: 14px;
+        }
+        img {
+            max-width: 100%;
+        }
+        .imagepad{
+        padding-left: 20%;
+        padding-right: 10%;
+      }
+      .aloha-logo{
+        height: 6.25em;
+        max-width: 100%;
+        width: 25%;
+
+      }
+      .cart-logo{
+        height: 4em;
+        padding: 1%;
+        width: 12%;
+        padding-top: 4%
+      }
+        footer{
+          text-align: center;
+        }
