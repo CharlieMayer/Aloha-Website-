@@ -1,30 +1,49 @@
-div.container {
+.container {
     margin: 0 auto;
     max-width: 1240px;
     padding: 0 2%;
     width: 100%;
+    /* max width */
 }
-.clearfix {
-    overflow: auto;
-}
+/***************************
+****************************
+These are the styles for
+the header section
+****************************
+***************************/
 .aloha-logo {
-    height: 100px;
+    height: 6.25em;
     max-width: 100%;
     width: 15%;
 }
 .cart-logo {
-    height: 65px;
+    height: 4em;
     padding: 1%;
     width: 7%;
 }
+.clearfix {
+    overflow: auto;
+}
+.clearleft {
+    clear:left;
+}
+
 .white {
     color: #ffffff;
+}
+.nopadding {
+    margin: 0;
+    padding: 0;
+}
+.font-size16 {
+    font-size: 16px;
 }
 .grey-color {
     color: #969696;
 }
-.padding {
-    padding-right: 60px;
+
+.padding-bottom {
+    padding-bottom: 60px;
 }
 .orange {
     color: #e2574c;
@@ -33,25 +52,61 @@ div.container {
 ul {
     list-style-type: none;
 }
-.clothes {
-}
+/***************************
+****************************
+These are the styles for
+the girl background section
+****************************
+***************************/
 .top {
     background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("assets/images/banner-girl.png"), url("assets/images/flower-bkgd.jpg");
     background-position: center top, 50% 100px;
     background-repeat: repeat-x, no-repeat;
     background-size: contain, auto auto;
-    height: 975px;
-    max-height: 975px;
+    height: 60.938em;
+    max-height: 60.938em;
     overflow: hidden;
-    top: 65px;
+    top: 4.063em;
     width: 100%;
+}
+/***************************
+****************************
+These are the font settings
+****************************
+***************************/
+.mySecondFont {
+    font-family: "mySecondFont";
 }
 @font-face {
     font-family: "myFirstFont";
     src: url("assets/fonts/PlayfairDisplay-Regular.otf");
 }
+@font-face {
+    font-family: "mySecondFont";
+    src: url("assets/fonts/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: "myThirdFont";
+    src: url("assets/fonts/PlayfairDisplay-Italic.otf");
+}
+@font-face {
+    font-family: "myFourthFont";
+    src: url("assets/fonts/PlayfairDisplay-Bold.otf");
+}
+.railwaylight {
+    font-family: "mySecondfont";
+}
+/***************************
+****************************
+These are the alignment settings
+****************************
+***************************/
 .center {
     text-align: center;
+}
+.vertcenter {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 hr {
     -moz-border-bottom-colors: none;
@@ -70,20 +125,29 @@ hr {
 body {
     font-size: 16px;
 }
+/*** These are the float settings ***/
 .floatleft {
     float: left;
     overflow: hidden;
 }
-.logo {
-    display: inline-block;
-}
+
 .floatright {
     float: right;
     overflow: hidden;
 }
+
+.logo {
+    display: inline-block;
+}
+
+/***************************
+****************************
+These are the heading settings
+****************************
+***************************/
 .h1 {
     color: white;
-    font-size: 60px;
+    font-size: 90px;
 }
 .font-size {
     color: #2d2d2d;
@@ -97,37 +161,77 @@ body {
     padding-top: 310px;
 }
 h3 {
-    font-family: mySecondFont;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 }
 div {
     font-family: myFirstFont;
 }
-.container {
-    margin: 0 auto;
-    max-width: 1240px;
-    padding: 0 2%;
-    width: 100%;
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid #d7d7d7;
+}
+
+.bodytext {
+    color: #2d2d2d;
 }
 .container2 {
     width: 25%;
 }
+/***************************
+****************************
+These are the Sign up section settings
+****************************
+***************************/
 .section {
     background-image: url("assets/images/wave-bkgd.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 250px;
 }
 #image.container {
     float: left;
 }
+.relative{
+  position: relative;
+}
+/***************************
+****************************
+These are the input form settings
+****************************
+***************************/
 .input {
-border-radius: 31px;
--moz-border-radius: 31px;
--webkit-border-radius: 31px;
-border: 0px solid #FFFFFF;
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 30%;
+    height: 25px;
+    padding: 0 0 0 15px;
+}
+button {
+  position: absolute;
+    top: 0;
+    right:35%;
+    margin: 3px 0;
+    background-color: #e2574c;
+    border-radius: 31px;
+    -moz-border-radius: 31px;
+    -webkit-border-radius: 31px;
+    border: 0px solid #FFFFFF;
+    width: 6%;
+    height: 20px;
+}
+
+/***************************
+****************************
+These are the Products Section settings
+****************************
+***************************/
+.Category {
+    font-family: mySecondFont;
 }
 .clothes {
     text-align: center;
@@ -138,8 +242,13 @@ border: 0px solid #FFFFFF;
 .Price {
     text-align: center;
 }
+/***************************
+****************************
+These are the footer settings
+****************************
+***************************/
 footer {
-    background-color: black;
+    background-color: #242424;
     color: white;
     margin: 20px 0;
     overflow: hidden;
@@ -149,58 +258,132 @@ div.clothes {
     display: inline-block;
     width: 23%;
 }
-
-.visibledevice {display:none;}
-.visibledesktop {display:display;}
-
-@media only screen and (max-width: 599px) {
-  .visibledevice {display:inline-block;}
-  .visibledesktop {display:none;}
-  full-for-mobile{
-    width:auto}
-    div.clothes{
-         display:inline;
-         width: 23%
-       }
-       body{
-         font-size:14px;}
-       img {
-       max-width: 100%
-  @media (max-width : 320px) {
-    .visibledevice {display:inline;}
-  .visibledesktop {display:none;}
-  div.clothes{
-       display:inline;
-       width: 23%
-     }
-  body{
-    font-size:14px;}
-  img {
-  max-width: 100%
+.visibledevice {
+    display:none;
 }
-tablet
+.visibledesktop {
+    display:display;
+}
+/***************************
+****************************
+These are the list settings
+****************************
+***************************/
+ul{
+  padding-right: 60px;
+  float: right;
+  overflow: hidden;
+  }
 
-@media only screen and (min-width: 600px) and (max-width: 999px) {
-  .visibledevice {display:inline-block;}
-  .visibledesktop {display:none;}
-  full-for-mobile{
-    width:auto}
-    div.clothes{
-         display:inline;
-         width: 23%
-       }
-       body{
-         font-size:14px;}
-       img {
-       max-width: 100%
-  @media (max-width : 320px) {
-    .visibledevice {display:inline;}
-  .visibledesktop {display:none;}
-  div.clothes{
-       display:inline;
-       width: 44%
-     }
-  body{
-    font-size:14px;}
-  img {
-  max-width: 100%
+  /***************************
+  ****************************
+  These are the mobile settings
+  ****************************
+  ***************************/
+@media only screen and (max-width: 599px) {
+    .visibledevice {
+        display:inline-block;
+    }
+    .visibledesktop {
+        display: none;
+    }
+    .top {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.247) 0%, rgba(0, 0, 0, 0.247) 100%), url("assets/images/banner-girl.png"), url("assets/images/flower-bkgd.jpg");
+        background-position: center top, 50% 100px;
+        background-repeat: repeat-x, no-repeat;
+        background-size: contain;
+        height: 300px;
+        max-height: 60.938em;
+        overflow: hidden;
+        top: 4.063em;
+        width: 100%;
+    }
+    .h2 {
+        color: white;
+        font-family: myFirstFont;
+        font-size: 14px;
+        padding-top: 45%;
+    }
+    .h1 {
+        color: white;
+        font-size: 30px;
+    }
+    .font-size {
+        color: #2d2d2d;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    full-for-mobile {
+        width: auto;
+    }
+    div.clothes {
+        display: inline;
+        width: 23%;
+    }
+    div.floatleft{
+      float: none;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    p{
+      text-align: center;
+    }
+    li
+      {
+      display: inline;
+      list-style-type: none;
+      padding-right: 20px;
+    }
+    .input {
+        border-radius: 31px;
+        -moz-border-radius: 31px;
+        -webkit-border-radius: 31px;
+        border: 0px solid #FFFFFF;
+        width: 70%;
+        height: 25px;
+        padding: 0 0 0 15px;
+    }
+    button {
+      position: absolute;
+        top: 0;
+        right:15%;
+        margin: 3px 0;
+        background-color: #e2574c;
+        border-radius: 31px;
+        -moz-border-radius: 31px;
+        -webkit-border-radius: 31px;
+        border: 0px solid #FFFFFF;
+        width: 20%;
+        height: 20px;
+    }
+            .visibledesktop {
+                display: none;
+            }
+            body {
+                font-size: 14px;
+            }
+            img {
+                max-width: 100%;
+            }
+            .imagepad{
+            padding-left: 20%;
+            padding-right: 10%;
+          }
+          .aloha-logo{
+            height: 6.25em;
+            max-width: 100%;
+            width: 25%;
+
+          }
+          .cart-logo{
+            height: 4em;
+            padding: 1%;
+            width: 12%;
+            padding-top: 4%
+          }
+            footer{
+              text-align: center;
+            }
